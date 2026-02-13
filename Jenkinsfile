@@ -71,7 +71,7 @@ spec:
                         sh """
                         git config user.email 'chaduri79134@gmail.com'
                         git config user.name 'HyeonWooJo'
-                        git remote set-url origin https://\${GITHUB_USER}:\${GITHUB_TOKEN}@github.com/HyeonWooJo/my-python-app.git
+                        git remote set-url origin https://\${GITHUB_USER}:\${GITHUB_TOKEN}@github.com/HyeonWooJo/my-infra-manifests.git
                         git fetch origin main
                         git pull --rebase origin main || true
                         git add .
