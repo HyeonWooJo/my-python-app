@@ -40,7 +40,7 @@ def health_check():
 
 @app.get("/version")
 def version():
-    return {"version": "1.0.0"}
+    return {"version": "1.0.1"}
 
 # Todo API 엔드포인트
 @app.post("/todos", response_model=Todo, status_code=201)
